@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+	base: '/aegisai/',        // ← имя твоего репозитория на GitHub
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
