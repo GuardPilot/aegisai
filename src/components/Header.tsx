@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { MessageCircle, Mail, Globe } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
-import logoImage from 'figma:asset/94bc71c4574fbf571a985c58d375a0920539431a.png';
+import logoImage from '../assets/logo.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

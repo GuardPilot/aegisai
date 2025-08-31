@@ -1,7 +1,7 @@
 import { MessageCircle, Mail } from 'lucide-react';
 import { useState } from 'react';
 import { useLanguage } from './LanguageContext';
-import logoImage from 'figma:asset/94bc71c4574fbf571a985c58d375a0920539431a.png';
+import logoImage from '../assets/logo.png';
 
 export function Footer() {
   const [showPrivacyModal, setShowPrivacyModal] = useState(false);
